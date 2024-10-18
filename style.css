@@ -1,0 +1,55 @@
+/* 
+    MAKE SURE YOU ADD COMMENTS FOR YOUR PART OF STYLING
+    BEFORE AND AFTER ENDING.....
+
+    USE var() FOR COLOR
+
+
+
+
+*/
+
+/* default reset starting */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --font-color: #000;
+    --background-yellow-color: #FFBF23;
+    --background-pink-color: #FFD7EF;
+    /* FONT TYPE */
+    --heading-font-family: "Space Grotesk", sans-serif;
+    --paragraph-font-family:  'Proxima Nova', sans-serif;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Proxima Nova Font.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }  
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    min-height: 100vh;
+}
+/* just for refrense "EdIT YOUR CODE HERE ABHIRAM>>" */
+nav{
+    background-color: #000;
+    height: 50px;
+    width: 100%;
+}
+/* END OF RESET */
+
+/* main style start here */
+#product{
+    background-color: #FFD7EF;
+}
