@@ -4,6 +4,32 @@
     scroll-behavior: smooth;
 }
 
+
+:root{
+    /* --font-color: #000;
+    --background-yellow-color: #FFBF23;
+    --background-pink-color: #FFD7EF; */
+    /* FONT TYPE */
+    --heading-font-family: "Space Grotesk", sans-serif;
+    --paragraph-font-family:  'Proxima Nova', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Proxima Nova Font.otf') format('opentype');
+    /* font-weight: normal; */
+    font-style: normal;
+  }  
+
+
+
+
+/* 
+header and navigation style starts */
+
+
+
 header{
     padding: 10px;
     /* border: 1px solid blue; */
@@ -34,10 +60,12 @@ nav{
 .logo-components h3{
     position: relative;
     bottom: 4px;
+    font-family: var(--paragraph-font-family);
 }
 .logo-components p{
     font-size: 14px;
     display: block;
+    font-weight: 200;
 }
 
 .menus{
@@ -64,7 +92,7 @@ nav{
 }
 
 .menu-items button{
-    background-color: rgb(227, 210, 17);
+    background-color:#F2A922;
     border-width: 1px;
     padding: 15px;
     width: 120px;
@@ -102,20 +130,26 @@ nav{
 .hero .hero-content{
     /* border: 2px solid black; */
     height: auto;
-    padding: 90px;
+    padding: 80px;
     width: 50%;
     position: relative;
     left: 90px;
 }
 
 .hero-content h1{
+
     font-size: 48px;
+    font-weight: 300;
+    font-family: var(--paragraph-font-family);
+
 }
 
 .hero-content h3 {
     /* border: 1px solid black; */
+    font-weight: 300;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-family: var(--paragraph-font-family);
 }
 
 .hero-content a button{
@@ -132,16 +166,16 @@ nav{
 }
 
 .hero-content a button:hover{
-    background-color: rgb(227, 210, 17);
+    background-color: #F2A922;
     color: black;
 }
 
 .hero .hero-img {
 position: relative;
-right: 90px;
+right: 80px;
 top: 50px;
 width: auto;
-height: 510px;
+height: 520px;
 /* border: 2px solid black; */
 }
 
@@ -156,4 +190,9 @@ height: 510px;
     display: flex;
 }
 
+/* hero section ends here */
 
+.section2{
+    background-color: #F2A922;
+    height: 100vh;
+}
