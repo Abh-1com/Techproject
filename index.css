@@ -50,11 +50,17 @@ nav{
     align-items: center;
 }
 
+.logo-components i{
+    /* border: 1px solid green; */
+     margin-right: 10px;
+      padding: 4px;
+}
 
+/* 
 .logo-components img{
     position: relative;
     right: 10px;
-}
+} */
 
 
 .logo-components h3{
@@ -109,7 +115,13 @@ nav{
 }
 .login {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    padding: 3px;
+}
+.login a{
+    margin-left:5px ;
+    margin-top: 2px;
 }
 
 /* Navigation Bar style ends here */
@@ -181,18 +193,191 @@ height: 520px;
 
 .features{
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: space-between;
+    margin-top: 40px;
     /* border: 2px solid black; */
+}
+
+.feature svg{
+    position: relative;
+    right: 10px;
 }
 
 .feature{
     display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
 }
 
 /* hero section ends here */
+/* ------------------------------------------------- */
+/* section2 starts here */
 
 .section2{
-    background-color: #F2A922;
-    height: 100vh;
+    background-color: #FFBF23;
+    height: 80vh;
+    position: relative;
+    /* top: 80px; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
 }
+.section2 .p1{
+    font-size: 38px;
+    font-family: var(--paragraph-font-family);
+    font-weight: 100;
+    /* border: 1px solid black; */
+    width: 30vw;
+    line-height: 50px;
+    padding: 20px;
+}
+.section2 .p2{
+    font-family: var(--paragraph-font-family);
+    width: 40vw;
+    line-height: 28px;
+    /* border: 1px solid black; */
+}
+
+/* section2 ends here */
+/* -:------------------------------:- */
+/* clients section starts here */
+
+
+.clients{
+    background-color: #FFD7EF;
+    height: auto;
+    position: relative;
+    /* top: 100px; */
+    padding: 80px 0px 40px 150px;
+    /* padding-left: 150px; */
+}
+
+.companies{
+    /* border: 2px solid black; */
+    padding: 50px;
+    width: 70vw;
+    display: flex;
+    gap: 120px;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
+    position: relative;
+    /* top: 120px; */
+}
+
+.clients h1{
+      /* border: 2px solid black; */
+      width:fit-content;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      font-size: 40px;
+      font-family: var(--paragraph-font-family);
+      font-weight: 100;
+}
+.clients .sub-content{
+         /* border: 2px solid black;  */
+         width: fit-content;
+         padding: 10px 0px 20px 0px;
+         /* font-size: large; */
+         font-family: var(--paragraph-font-family);
+         font-size: 16px;
+         line-height: 26px;
+}       
+
+.companies .box , .box img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+}
+
+/* clients section ends here */
+/* ------------------------------------------------- */
+
+/* pricing section starts here */
+
+.home-pricing{
+    background-color: transparent;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+    gap: 0px;
+}
+
+.home-pricing .content{
+    /* border: 2px solid rgb(22, 168, 27); */
+    width: 50%;
+    height: auto;
+    padding: 20px 0px 10px 0px;
+
+}
+.home-pricing .content h1{
+    font-size: 38px;
+    font-weight: 100;
+    font-family: var(--paragraph-font-family);
+    margin-bottom: 24px;
+}
+.home-pricing .content p{
+    /* font-size: 17px; */
+    font-family: var(--paragraph-font-family);
+    font-weight: 100;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.home-pricing .content button{
+    background-color:#000000;
+    color: white;
+    border-width: 1px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    border-color: rgb(100, 90, 10);
+    font-weight:bolder;
+    transition: 0.5s;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    font-family: var(--paragraph-font-family);
+}
+
+.home-pricing .box-section{
+    
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    /* left: 10px; */
+    height: 80vh;
+    width: 46%;
+    border-radius: 10px;
+}
+
+.box-section .box1{
+    background-color: #000000;
+    padding: 30px 40px 0px 30px;
+    height: 60%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 0px 0px;
+}
+.box1 p{
+    color: white;
+}
+.box1 p span{
+    font-size: 30px;
+}
+
+.box-section .box2{
+    background-color:#FFD7EF;
+    /* padding: 10px; */
+    height: 40%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px 0px 10px 10px;
+}
+.box2 ul{
+    margin-top: 20px;
+}
+.box2 ul li{
+    margin-bottom: 20px;
+} 

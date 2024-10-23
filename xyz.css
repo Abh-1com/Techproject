@@ -1,0 +1,11 @@
+.icon{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.example{
+    background: url('a.svg');
+}
